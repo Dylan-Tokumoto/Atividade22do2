@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
-*{
-
-}
+/*{
+    padding: 0;
+    margin: 0;
+}*/
 
 body{
     background-color: #131313;
@@ -11,13 +12,15 @@ body{
 h1{
     color: white;
     font-family: 'Roboto', sans-serif;
+    text-align: center;
 }
 
 .media-picture{
     height: 400px;
-    background-image: url(/img/selecao.jpg);
+    background-image: url('https://i.pinimg.com/originals/0e/d9/e2/0ed9e2c5c6d8677e974df0f19b3300cc.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     background-attachment: fixed;
 
 }
@@ -30,6 +33,12 @@ h1{
 
 h2{
     color: steelblue;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3{
+    color: #bdbdbd;
+    font-family: 'Roboto', sans-serif;
 }
 
 p{
@@ -39,8 +48,10 @@ p{
 
 ul{
     color: #bdbdbd;
+    font-family: 'Roboto', sans-serif;
 }
 
 a{
     color: yellow;
+    font-family: 'Roboto', sans-serif;
 }
